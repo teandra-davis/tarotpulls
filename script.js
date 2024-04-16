@@ -1,7 +1,7 @@
 const tarotCards = [
     {
         name: "The Fool",
-        img: "https://example.com/path/to/fool.jpg",  // Replace with actual URLs
+        img: "https://github.com/teandra-davis/tarotpulls/blob/main/20240416_175357.jpg",  // Replace with actual URLs
         description: "Beginnings, innocence, spontaneity, a free spirit"
     },
     {
