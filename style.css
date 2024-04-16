@@ -6,6 +6,9 @@
 #tarotImage {
     width: 300px;
     margin-top: 20px;
+    display: block;  /* Ensures the image is on its own line */
+    margin-left: auto;  /* Centers the image horizontally */
+    margin-right: auto;
 }
 
 button {
