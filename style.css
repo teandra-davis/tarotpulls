@@ -1,3 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  /* Prevents scrollbars from appearing inside the iframe */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;  /* Ensures the widget uses all the available space in the iframe */
+}
+
 #cardContainer {
     display: flex;           /* Use flexbox to align children */
     flex-direction: column;  /* Stack children vertically */
@@ -8,12 +18,15 @@
 }
 
 #tarotImage {
-    width: 300px;
-    height: 500px; 
+    width: 90%;
+    max-width: 600px;
+    /*height: 500px;*/
     margin-top: 20px;
     display: block;  /* Ensures the image is on its own line */
-    margin-left: auto;  /* Centers the image horizontally */
-    margin-right: auto;
+    /*margin-left: auto;  /* Centers the image horizontally
+    margin-right: auto;*/
+    margin: auto;
+    text-align: center;
     visibility: hidden; /* Initially hides the image */
 }
 
