@@ -16,6 +16,17 @@
     margin-right: auto;
 }
 
+.card-text {
+    width: 100%;  /* Ensures the text aligns to the width of the container */
+    text-align: center;
+}
+
+#cardTitle {
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;  /* Larger size for the title */
+    margin-bottom: 10px;
+}
+
 /*button {
     padding: 10px 20px;
     font-size: 16px;
