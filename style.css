@@ -5,7 +5,6 @@
     justify-content: center; /* Center-align the flex items vertically (optional if you want vertical centering too) */
     margin-top: 50px;
     height: 100vh; 
-    font-family: 'Great Vibes', cursive;
 }
 
 #tarotImage {
@@ -29,6 +28,7 @@
     font-size: 24px;  /* Larger size for the title */
     margin-bottom: 10px;
     padding: 5px;
+    font-family: 'Great Vibes', cursive;
 }
 
 /*button {
