@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Tarot Pull</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="cardContainer">
-        <button class="button-56" role="button" onclick="drawCard()">Draw a Tarot Card</button>
         <img id="tarotImage" src="" alt="Tarot Card">
-        <p id="cardDescription"></p>
+        <div id="cardTitle" class="card-text"></div>
+        <div id="cardDescription" class="card-text"></div>
+        <button class="button-56" role="button" onclick="drawCard()">Draw a Tarot Card</button>
     </div>
 
     <script src="script.js"></script>
