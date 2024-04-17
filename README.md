@@ -16,8 +16,8 @@ Before embedding the widget into your Notion page, ensure you have:
   Installation
   Download the Widget: Clone this repository or download the zip file.
 
-  Copy code
-  git clone https://github.com/teandra-davis/tarotpulls.git
+    Copy code
+    git clone https://github.com/teandra-davis/tarotpulls.git
   Host the Widget: Upload the index.html, script.js, and style.css files to your web server.
 
 **Prepare for Embedding in Notion: Notion requires a URL to embed web content, so ensure your widget is accessible via a public URL.**
