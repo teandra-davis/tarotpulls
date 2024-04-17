@@ -21,12 +21,14 @@
 .card-text {
     width: 100%;  /* Ensures the text aligns to the width of the container */
     text-align: center;
+    padding: 10px;
 }
 
 #cardTitle {
     font-family: 'Great Vibes', cursive;
     font-size: 24px;  /* Larger size for the title */
     margin-bottom: 10px;
+    padding: 5px;
 }
 
 /*button {
