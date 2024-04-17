@@ -93,5 +93,6 @@ const tarotCards = [
 function drawCard() {
     const card = tarotCards[Math.floor(Math.random() * tarotCards.length)];
     document.getElementById('tarotImage').src = card.img;
-    document.getElementById('cardDescription').textContent = card.name + ": " + card.description;
+    document.getElementById('cardTitle').textContent = card.name;
+    document.getElementById('cardDescription').textContent = card.description;
 }
