@@ -7,6 +7,7 @@ html, body {
     align-items: center;
     height: 100%;  /* Ensures the widget uses all the available space in the iframe */
     width: 100%;
+    background-color: #ffffff; 
 }
 
 #cardContainer {
@@ -14,24 +15,37 @@ html, body {
     flex-direction: column;  /* Stack children vertically */
     align-items: center;     /* Center-align the flex items horizontally */
     justify-content: center; /* Center-align the flex items vertically (optional if you want vertical centering too) */
-    margin-top: 50px;
-    height: 100vh; 
+    width: auto;
+    max-width: 320px; /* Maximum width of the container, adjust as needed */
+    margin: auto; /* Automatically adjust margin */
+    text-align: center; /* Ensures text and content are centered */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+    border-radius: 10px; /* Optional: Rounds the corners of the container */
+    overflow: hidden; /* Ensures nothing spills out of the container */
+    background-color: #FFF8E8; /* Light background for the card, adjust as needed */
 }
 
 #tarotImage {
     width: 100%;
-    visibility: hidden; /* Initially hides the image */
+    /*visibility: hidden; Initially hides the image */
+    max-width: 300px; /* Set a max-width for your image */
+    margin-top: 20px;
+    display: block; /* Ensures the image is on its own line */
+    visibility: visible; /* Makes the image visible */
+    margin: auto; /* Centers the image in the container */
 }
 
 .card-text {
     width: 100%;  /* Ensures the text aligns to the width of the container */
     padding: 10px;
+    box-sizing: border-box; /* Includes padding in width */
 }
 
 #cardTitle {
     font-family: 'Great Vibes', cursive;
     font-size: 24px;  /* Larger size for the title */
     margin-bottom: 15px;
+    color: #333333; /* Darker color for better readability */
 }
 
 /*button {
