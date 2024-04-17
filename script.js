@@ -92,6 +92,8 @@ const tarotCards = [
 
 function drawCard() {
     const card = tarotCards[Math.floor(Math.random() * tarotCards.length)];
+    tarotImage.src = card.img;
+    tarotImage.style.visibility = 'visible'; // Makes the image visible
     document.getElementById('tarotImage').src = card.img;
     document.getElementById('cardTitle').textContent = card.name;
     document.getElementById('cardDescription').textContent = card.description;
