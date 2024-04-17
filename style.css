@@ -45,7 +45,7 @@ html, body {
 #cardTitle {
     font-family: 'Great Vibes', cursive;
     font-size: 30px;  /* Larger size for the title */
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #333333; /* Darker color for better readability */
 }
 
