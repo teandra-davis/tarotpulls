@@ -6,6 +6,7 @@ html, body {
     justify-content: center;
     align-items: center;
     height: 100%;  /* Ensures the widget uses all the available space in the iframe */
+    width: 100%;
 }
 
 #cardContainer {
@@ -18,21 +19,12 @@ html, body {
 }
 
 #tarotImage {
-    width: 90%;
-    max-width: 600px;
-    /*height: 500px;*/
-    margin-top: 20px;
-    display: block;  /* Ensures the image is on its own line */
-    /*margin-left: auto;  /* Centers the image horizontally
-    margin-right: auto;*/
-    margin: auto;
-    text-align: center;
+    width: 100%;
     visibility: hidden; /* Initially hides the image */
 }
 
 .card-text {
     width: 100%;  /* Ensures the text aligns to the width of the container */
-    text-align: center;
     padding: 10px;
 }
 
@@ -40,7 +32,6 @@ html, body {
     font-family: 'Great Vibes', cursive;
     font-size: 24px;  /* Larger size for the title */
     margin-bottom: 15px;
-    font-family: 'Great Vibes', cursive;
 }
 
 /*button {
@@ -64,7 +55,7 @@ html, body {
   height: 48px;
   justify-content: center;
   line-height: 24px;
-  max-width: 100%;
+  width: 100%;
   padding: 0 25px;
   position: relative;
   text-align: center;
