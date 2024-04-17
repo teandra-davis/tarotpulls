@@ -46,5 +46,6 @@ Contributions are welcome! Please fork the repository, make your changes, and su
 
 
 **Acknowledgments**
-Special thanks to [] for the beautiful designs of the Ethereal Visions Tarot Luna Edition.
+Special thanks to Kristine Fredheim for the beautiful designs of the Soul Card Blush Tarot Deck. Please check out her website and buy the deck if you're interested! https://soulcardstarot.com/
 This project uses images and concepts based on traditional tarot interpretations.
+I do now own the images of the tarot deck and the full ownership belongs to Kristine Fredheim of Soul Cards Tarot
